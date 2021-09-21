@@ -7,7 +7,7 @@ function jump() {
 
     setTimeout(function () {
       dino.classList.remove("jump");
-    }, 300);
+    }, 500);
   }
 }
 
@@ -28,5 +28,6 @@ let isAlive = setInterval(function () {
 }, 10);
 
 document.addEventListener("keydown", function (event) {
+  if(event.keyCode==38 || event.keyCode==32) 
   jump();
 });
