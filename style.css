@@ -19,7 +19,7 @@ body{
   }
   
   .jump {
-    animation: jump 0.9s linear;
+    animation: jump 0.5s linear;
   }
   
   @keyframes jump {
@@ -54,7 +54,7 @@ body{
     background-color: black;
     background-size: 20px 40px;
   
-    animation: block 1s infinite linear;
+    animation: block 1.5s infinite linear;
   }
   
   @keyframes block {
