@@ -1,13 +1,11 @@
 
 (function() {
-  var widget = document.createElement('iframe');
-  widget.src = "//z-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=IN";
-  widget.id = 'widget';
-  document.body.appendChild(widget);
-  alert("In JS");
-  //assign your widget variables
-})();
-const dino = document.getElementById("dino");
+  // var widget = document.createElement('iframe');
+  // widget.src = "//z-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=IN";
+  // widget.id = 'widget';
+  // document.body.appendChild(widget);
+  // alert("In JS");
+  const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
 
 function jump() {
@@ -40,3 +38,5 @@ document.addEventListener("keydown", function (event) {
   if(event.keyCode==38 || event.keyCode==32) 
   jump();
 });
+  //assign your widget variables
+})();
