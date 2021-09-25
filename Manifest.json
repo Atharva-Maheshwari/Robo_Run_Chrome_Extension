@@ -17,11 +17,14 @@
         "16": "icons/Robo_16.png",
         "48": "icons/Robo_48.png",
         "128": "icons/Robo_16.png"
-        }
+        },
+        "default_popup":"./assets/index.html"
     },
+    "background" : {
+        "scripts" : [ "./assets/scripts.js" ]
+      },
     "content_scripts": [{
         "matches": ["https://www.google.com/*"],
-        "css": ["./assets/style.css"],
-        "scripts": ["./assets/scripts.js"]
+        "css": ["./assets/style.css"]
     }]
 }

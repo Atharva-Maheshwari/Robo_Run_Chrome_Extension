@@ -1,4 +1,12 @@
-alert("In JS");
+
+(function() {
+  var widget = document.createElement('iframe');
+  widget.src = "//z-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=IN";
+  widget.id = 'widget';
+  document.body.appendChild(widget);
+  alert("In JS");
+  //assign your widget variables
+})();
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
 
