@@ -18,13 +18,13 @@
         "48": "icons/Robo_48.png",
         "128": "icons/Robo_16.png"
         },
-        "default_popup":"./assets/index.html"
+        "default_popup":"./display/index.html"
     },
     "background" : {
-        "scripts" : [ "./assets/scripts.js" ]
+        "scripts" : [ "./display/scripts.js" ]
       },
     "content_scripts": [{
         "matches": ["https://www.google.com/*"],
-        "css": ["./assets/style.css"]
+        "css": ["./display/style.css"]
     }]
 }
